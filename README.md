@@ -1,4 +1,4 @@
-# 🤖 English-to-Vietnamese Transformer Model
+# English-to-Vietnamese Transformer Model
 
 This project is a sequence-to-sequence Transformer model, built from scratch using PyTorch, designed to translate English sentences into Vietnamese.
 
@@ -39,8 +39,7 @@ The model was trained on a parallel corpus of **150,000 English-Vietnamese sente
 
 The model's performance was tracked by comparing training loss against validation loss per epoch. The final translation quality is measured by the corpus BLEU score.
 
-![alt text](image.png)
-
+![Training vs Validation Loss](assets/training_loss_plot.png)
 - **Final BLEU Score:** 29.3303
 
 ## 🚀 How to Run
