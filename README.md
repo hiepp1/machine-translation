@@ -44,6 +44,20 @@ The model's performance was tracked by comparing training loss against validatio
 
 ## 🚀 How to Run
 
+### Option 1: Google Colab (Recommended)
+
+The easiest way to run this project is by opening the Google Colab notebook directly. You can "Save a copy in Drive" and run all cells.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1iXALveHBoVQiErvz8uAVJcMhOJS7QKMX)
+
+### Option 2: Run Locally (Not Recommended)
+
+**. Environment Setup**
+This project was built using:
+* **Python:** `3.10+`
+* **PyTorch:** `2.0+`
+* **Key Libraries:** `pandas`, `underthesea`, `nltk`, `sacrebleu`
+  
 1.  Clone the repository.
 2.  Install dependencies: `pip install pandas torch underthesea matplotlib nltk sacrebleu`
 3.  Download the dataset files and update the paths in the script.
